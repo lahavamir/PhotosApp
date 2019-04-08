@@ -43,7 +43,7 @@ class PhotoCell: UICollectionViewCell {
         imageView?.image = image
     }
     
-    func startActivityIndicator(_ start:Bool)
+    func shouldStartActivityIndicator(_ start:Bool)
     {
         if start {
             startUpLoading()

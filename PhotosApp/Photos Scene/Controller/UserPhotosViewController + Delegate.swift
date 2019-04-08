@@ -37,7 +37,7 @@ extension UserPhotosViewController:UICollectionViewDelegate,UICollectionViewDele
         if !model.isUploading(at: indexPath) {
            
             // start activity indicator after item selected
-            cell.startActivityIndicator(true)
+            cell.shouldStartActivityIndicator(true)
             
             // update model about the new index
             model.updateUpload(indexPath:indexPath)

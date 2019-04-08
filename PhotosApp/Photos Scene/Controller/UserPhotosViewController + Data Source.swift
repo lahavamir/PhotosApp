@@ -28,7 +28,7 @@ extension UserPhotosViewController:UICollectionViewDataSource
         }
         
         // check if need to spin Activity Indicator
-        cell.startActivityIndicator(model.isUploading(at: indexPath))
+        cell.shouldStartActivityIndicator(model.isUploading(at: indexPath))
         
         
         return cell
