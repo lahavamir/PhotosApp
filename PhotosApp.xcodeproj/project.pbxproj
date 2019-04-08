@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29335050225A9DDF001B0187 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933504F225A9DDF001B0187 /* APIService.swift */; };
+		29335052225AA18F001B0187 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29335051225AA18F001B0187 /* APIServiceProtocol.swift */; };
+		29335054225AABE9001B0187 /* MockApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29335053225AABE9001B0187 /* MockApiService.swift */; };
+		29335056225AACC7001B0187 /* Protocol Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29335055225AACC7001B0187 /* Protocol Alertable.swift */; };
+		2933505A225AB48D001B0187 /* URLLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29335059225AB48D001B0187 /* URLLinks.swift */; };
+		2933505C225ABBB1001B0187 /* LinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933505B225ABBB1001B0187 /* LinksModel.swift */; };
 		2960A8B0225A4A5A00A25DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8AF225A4A5A00A25DCE /* AppDelegate.swift */; };
 		2960A8B2225A4A5A00A25DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8B1225A4A5A00A25DCE /* ViewController.swift */; };
 		2960A8B5225A4A5A00A25DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2960A8B3225A4A5A00A25DCE /* Main.storyboard */; };
 		2960A8B7225A4A5F00A25DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2960A8B6225A4A5F00A25DCE /* Assets.xcassets */; };
 		2960A8BA225A4A5F00A25DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2960A8B8225A4A5F00A25DCE /* LaunchScreen.storyboard */; };
+		2960A8C3225A4B0E00A25DCE /* Protocol + Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8C2225A4B0E00A25DCE /* Protocol + Coordinator.swift */; };
+		2960A8C5225A4B2A00A25DCE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8C4225A4B2A00A25DCE /* AppCoordinator.swift */; };
+		2960A8CE225A4CAB00A25DCE /* Protocol Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8CD225A4CAB00A25DCE /* Protocol Xib.swift */; };
+		2960A8D0225A4CD700A25DCE /* Extention CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8CF225A4CD700A25DCE /* Extention CollectionView.swift */; };
+		2960A8D6225A4DBC00A25DCE /* Protocol UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8D5225A4DBC00A25DCE /* Protocol UIView.swift */; };
+		2960A8D9225A4DFB00A25DCE /* UserPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8D7225A4DFB00A25DCE /* UserPhotosViewController.swift */; };
+		2960A8DA225A4DFB00A25DCE /* UserPhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960A8D8225A4DFB00A25DCE /* UserPhotosViewController.xib */; };
+		2960A8DC225A4E9100A25DCE /* UserPhotosViewController + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8DB225A4E9100A25DCE /* UserPhotosViewController + Delegate.swift */; };
+		2960A8DE225A4EC800A25DCE /* UserPhotosViewController + Data Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8DD225A4EC800A25DCE /* UserPhotosViewController + Data Source.swift */; };
+		2960A8E1225A4F7F00A25DCE /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8DF225A4F7F00A25DCE /* PhotoCell.swift */; };
+		2960A8E2225A4F7F00A25DCE /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960A8E0225A4F7F00A25DCE /* PhotoCell.xib */; };
+		2960A8E4225A505B00A25DCE /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8E3225A505B00A25DCE /* PhotosModel.swift */; };
+		2960A8E6225A514000A25DCE /* UserPhotosCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8E5225A514000A25DCE /* UserPhotosCoordinator.swift */; };
+		2960A8E9225A540800A25DCE /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8E8225A540800A25DCE /* APIRequest.swift */; };
+		2960A8ED225A5A8A00A25DCE /* UserPhotosViewController + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8EC225A5A8A00A25DCE /* UserPhotosViewController + Utilities.swift */; };
+		2960A8EF225A71DB00A25DCE /* Network Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8EE225A71DB00A25DCE /* Network Constant.swift */; };
+		2960A8F6225A7C3100A25DCE /* UploadLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8F4225A7C3100A25DCE /* UploadLinkViewController.swift */; };
+		2960A8F7225A7C3100A25DCE /* UploadLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960A8F5225A7C3100A25DCE /* UploadLinkViewController.xib */; };
+		2960A8F9225A7D1B00A25DCE /* UploadLinkViewController + delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8F8225A7D1B00A25DCE /* UploadLinkViewController + delegate.swift */; };
+		2960A8FB225A7D2A00A25DCE /* UploadLinkViewController + Data Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960A8FA225A7D2A00A25DCE /* UploadLinkViewController + Data Source.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2933504F225A9DDF001B0187 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		29335051225AA18F001B0187 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		29335053225AABE9001B0187 /* MockApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiService.swift; sourceTree = "<group>"; };
+		29335055225AACC7001B0187 /* Protocol Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol Alertable.swift"; sourceTree = "<group>"; };
+		29335059225AB48D001B0187 /* URLLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLLinks.swift; sourceTree = "<group>"; };
+		2933505B225ABBB1001B0187 /* LinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksModel.swift; sourceTree = "<group>"; };
 		2960A8AC225A4A5A00A25DCE /* PhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2960A8AF225A4A5A00A25DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2960A8B1225A4A5A00A25DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +54,26 @@
 		2960A8B6225A4A5F00A25DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2960A8B9225A4A5F00A25DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2960A8BB225A4A5F00A25DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2960A8C2225A4B0E00A25DCE /* Protocol + Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol + Coordinator.swift"; sourceTree = "<group>"; };
+		2960A8C4225A4B2A00A25DCE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2960A8CD225A4CAB00A25DCE /* Protocol Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol Xib.swift"; sourceTree = "<group>"; };
+		2960A8CF225A4CD700A25DCE /* Extention CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention CollectionView.swift"; sourceTree = "<group>"; };
+		2960A8D5225A4DBC00A25DCE /* Protocol UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol UIView.swift"; sourceTree = "<group>"; };
+		2960A8D7225A4DFB00A25DCE /* UserPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosViewController.swift; sourceTree = "<group>"; };
+		2960A8D8225A4DFB00A25DCE /* UserPhotosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserPhotosViewController.xib; sourceTree = "<group>"; };
+		2960A8DB225A4E9100A25DCE /* UserPhotosViewController + Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserPhotosViewController + Delegate.swift"; sourceTree = "<group>"; };
+		2960A8DD225A4EC800A25DCE /* UserPhotosViewController + Data Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserPhotosViewController + Data Source.swift"; sourceTree = "<group>"; };
+		2960A8DF225A4F7F00A25DCE /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		2960A8E0225A4F7F00A25DCE /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		2960A8E3225A505B00A25DCE /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		2960A8E5225A514000A25DCE /* UserPhotosCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosCoordinator.swift; sourceTree = "<group>"; };
+		2960A8E8225A540800A25DCE /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		2960A8EC225A5A8A00A25DCE /* UserPhotosViewController + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserPhotosViewController + Utilities.swift"; sourceTree = "<group>"; };
+		2960A8EE225A71DB00A25DCE /* Network Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Constant.swift"; sourceTree = "<group>"; };
+		2960A8F4225A7C3100A25DCE /* UploadLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadLinkViewController.swift; sourceTree = "<group>"; };
+		2960A8F5225A7C3100A25DCE /* UploadLinkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadLinkViewController.xib; sourceTree = "<group>"; };
+		2960A8F8225A7D1B00A25DCE /* UploadLinkViewController + delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UploadLinkViewController + delegate.swift"; sourceTree = "<group>"; };
+		2960A8FA225A7D2A00A25DCE /* UploadLinkViewController + Data Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UploadLinkViewController + Data Source.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29335058225AB46F001B0187 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				29335059225AB48D001B0187 /* URLLinks.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		2960A8A3225A4A5A00A25DCE = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +114,13 @@
 		2960A8AE225A4A5A00A25DCE /* PhotosApp */ = {
 			isa = PBXGroup;
 			children = (
+				2960A8F0225A7BE100A25DCE /* Link Scene */,
+				2960A8C6225A4C1B00A25DCE /* Photos Scene */,
+				2960A8C1225A4AEE00A25DCE /* AppCoordinator */,
+				2960A8E7225A53BC00A25DCE /* Network */,
+				2960A8D4225A4D4500A25DCE /* Protocol */,
+				2960A8D3225A4D3C00A25DCE /* Extention */,
+				29335058225AB46F001B0187 /* Utilities */,
 				2960A8AF225A4A5A00A25DCE /* AppDelegate.swift */,
 				2960A8B1225A4A5A00A25DCE /* ViewController.swift */,
 				2960A8B3225A4A5A00A25DCE /* Main.storyboard */,
@@ -62,6 +129,129 @@
 				2960A8BB225A4A5F00A25DCE /* Info.plist */,
 			);
 			path = PhotosApp;
+			sourceTree = "<group>";
+		};
+		2960A8C1225A4AEE00A25DCE /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8C4225A4B2A00A25DCE /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		2960A8C6225A4C1B00A25DCE /* Photos Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8CA225A4C4000A25DCE /* View */,
+				2960A8C9225A4C3900A25DCE /* Controller */,
+				2960A8C8225A4C3200A25DCE /* Model */,
+				2960A8C7225A4C2B00A25DCE /* Coordinator */,
+			);
+			path = "Photos Scene";
+			sourceTree = "<group>";
+		};
+		2960A8C7225A4C2B00A25DCE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8E5225A514000A25DCE /* UserPhotosCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2960A8C8225A4C3200A25DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8E3225A505B00A25DCE /* PhotosModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2960A8C9225A4C3900A25DCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8D7225A4DFB00A25DCE /* UserPhotosViewController.swift */,
+				2960A8DB225A4E9100A25DCE /* UserPhotosViewController + Delegate.swift */,
+				2960A8DD225A4EC800A25DCE /* UserPhotosViewController + Data Source.swift */,
+				2960A8EC225A5A8A00A25DCE /* UserPhotosViewController + Utilities.swift */,
+				2960A8D8225A4DFB00A25DCE /* UserPhotosViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2960A8CA225A4C4000A25DCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8DF225A4F7F00A25DCE /* PhotoCell.swift */,
+				2960A8E0225A4F7F00A25DCE /* PhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2960A8D3225A4D3C00A25DCE /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8CF225A4CD700A25DCE /* Extention CollectionView.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		2960A8D4225A4D4500A25DCE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8C2225A4B0E00A25DCE /* Protocol + Coordinator.swift */,
+				2960A8CD225A4CAB00A25DCE /* Protocol Xib.swift */,
+				29335055225AACC7001B0187 /* Protocol Alertable.swift */,
+				2960A8D5225A4DBC00A25DCE /* Protocol UIView.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2960A8E7225A53BC00A25DCE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8E8225A540800A25DCE /* APIRequest.swift */,
+				2960A8EE225A71DB00A25DCE /* Network Constant.swift */,
+				29335051225AA18F001B0187 /* APIServiceProtocol.swift */,
+				2933504F225A9DDF001B0187 /* APIService.swift */,
+				29335053225AABE9001B0187 /* MockApiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2960A8F0225A7BE100A25DCE /* Link Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8F3225A7C0600A25DCE /* View */,
+				2960A8F2225A7BFF00A25DCE /* Controller */,
+				2960A8F1225A7BF300A25DCE /* Model */,
+			);
+			path = "Link Scene";
+			sourceTree = "<group>";
+		};
+		2960A8F1225A7BF300A25DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2933505B225ABBB1001B0187 /* LinksModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2960A8F2225A7BFF00A25DCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2960A8F4225A7C3100A25DCE /* UploadLinkViewController.swift */,
+				2960A8F8225A7D1B00A25DCE /* UploadLinkViewController + delegate.swift */,
+				2960A8FA225A7D2A00A25DCE /* UploadLinkViewController + Data Source.swift */,
+				2960A8F5225A7C3100A25DCE /* UploadLinkViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2960A8F3225A7C0600A25DCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +312,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2960A8DA225A4DFB00A25DCE /* UserPhotosViewController.xib in Resources */,
 				2960A8BA225A4A5F00A25DCE /* LaunchScreen.storyboard in Resources */,
 				2960A8B7225A4A5F00A25DCE /* Assets.xcassets in Resources */,
+				2960A8F7225A7C3100A25DCE /* UploadLinkViewController.xib in Resources */,
 				2960A8B5225A4A5A00A25DCE /* Main.storyboard in Resources */,
+				2960A8E2225A4F7F00A25DCE /* PhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +328,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2960A8C5225A4B2A00A25DCE /* AppCoordinator.swift in Sources */,
+				2960A8CE225A4CAB00A25DCE /* Protocol Xib.swift in Sources */,
+				2960A8FB225A7D2A00A25DCE /* UploadLinkViewController + Data Source.swift in Sources */,
+				2960A8E6225A514000A25DCE /* UserPhotosCoordinator.swift in Sources */,
+				2960A8E4225A505B00A25DCE /* PhotosModel.swift in Sources */,
+				2960A8EF225A71DB00A25DCE /* Network Constant.swift in Sources */,
+				29335050225A9DDF001B0187 /* APIService.swift in Sources */,
+				2933505A225AB48D001B0187 /* URLLinks.swift in Sources */,
+				2960A8D6225A4DBC00A25DCE /* Protocol UIView.swift in Sources */,
 				2960A8B2225A4A5A00A25DCE /* ViewController.swift in Sources */,
+				2960A8ED225A5A8A00A25DCE /* UserPhotosViewController + Utilities.swift in Sources */,
+				2960A8DE225A4EC800A25DCE /* UserPhotosViewController + Data Source.swift in Sources */,
+				2960A8D9225A4DFB00A25DCE /* UserPhotosViewController.swift in Sources */,
+				2960A8F6225A7C3100A25DCE /* UploadLinkViewController.swift in Sources */,
+				2960A8F9225A7D1B00A25DCE /* UploadLinkViewController + delegate.swift in Sources */,
+				2960A8E9225A540800A25DCE /* APIRequest.swift in Sources */,
+				29335052225AA18F001B0187 /* APIServiceProtocol.swift in Sources */,
+				2933505C225ABBB1001B0187 /* LinksModel.swift in Sources */,
 				2960A8B0225A4A5A00A25DCE /* AppDelegate.swift in Sources */,
+				29335056225AACC7001B0187 /* Protocol Alertable.swift in Sources */,
+				2960A8DC225A4E9100A25DCE /* UserPhotosViewController + Delegate.swift in Sources */,
+				2960A8C3225A4B0E00A25DCE /* Protocol + Coordinator.swift in Sources */,
+				2960A8E1225A4F7F00A25DCE /* PhotoCell.swift in Sources */,
+				29335054225AABE9001B0187 /* MockApiService.swift in Sources */,
+				2960A8D0225A4CD700A25DCE /* Extention CollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75F94K2BEH;
 				INFOPLIST_FILE = PhotosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +520,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75F94K2BEH;
 				INFOPLIST_FILE = PhotosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
